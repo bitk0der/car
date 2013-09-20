@@ -1,5 +1,5 @@
 <?php
-//error_reporting(0);
+error_reporting(0);
 date_default_timezone_set("Europe/Moscow");
 if (strlen($_SERVER['REQUEST_URI']) > 100000)
     exit;
